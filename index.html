@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <title>Admin Dashboard</title>
+</head>
+<body>
+    <aside>
+        <div class="logo">
+            <svg id="logo-svg" viewBox="0 0 24 24">
+                <path d="M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z"></path>
+            </svg>
+            <h1>Dashboard</h1>
+        </div>
+        <ul>
+            <li><img src="./resources/home.png" alt=""><a href="">Home</a></li>
+            <li><img src="./resources/profile.png" alt=""><a href="">Profile</a></li>
+            <li><img src="./resources/messages.png" alt=""><a href="">Messages</a></li>
+            <li><img src="./resources/history.png" alt=""><a href="">History</a></li>
+            <li><img src="./resources/tasks.png" alt=""><a href="">Tasks</a></li>
+            <li><img src="./resources/communities.png" alt=""><a href="">Communities</a></li>
+        </ul>
+        <ul>
+            <li><img src="./resources/settings.png" alt=""><a href="">Settings</a></li>
+            <li><img src="./resources/support.png" alt=""><a href="">Support</a></li>
+            <li><img src="./resources/privacy.png" alt=""><a href="">Privacy</a></li>
+        </ul>
+    </aside>
+
+    <header>
+        <nav>
+            <div class="nav-input">
+                <a class="nav-isearch" href="#inp"></a>
+                <input id="inp" type="text" name="" id="">
+            </div>
+            <div class="nav-user">
+                <a class="nav-ibell" href="#"></a>
+                <img class="profile-img" src="./resources/user.png" alt="profile imgage">
+                <h3 class="name">Marcos Bergatta</h3>
+            </div>
+        </nav>
+        <div class="user-cont">
+            <div>
+                <img src="./resources/user.png" alt="" class="profile-img">
+                <p style="font-size: 1.4rem; font-weight: bold;">Hi there,</p>
+                <h2 class="name">Marcos Bergatta (@marcos)</h2>
+            </div>
+            <div>
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
+            </div>
+        </div>
+    </header>
+    
+
+    <main>
+        <h1>Your Projects</h1>
+        <div class="projects-cont">
+            <div class="project-card">
+                <div class="project-txt">
+                    <h2>Super Cool Project</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur totam nam molestiae iure unde numquam nobis fugiat ab.</p>
+                </div>
+                <div class="project-btn">
+                    <a href="#" class="istar"></a>
+                    <a href="#" class="iviewed"></a>
+                    <a href="#" class="ishare"></a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-txt">
+                    <h2>Less Cool Project</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur totam nam molestiae iure unde numquam nobis fugiat ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam assumenda veritatis porro iste non, iusto voluptatibus repudiandae vero sunt voluptatum!</p>
+                </div>
+                <div class="project-btn">
+                    <a href="#" class="istar"></a>
+                    <a href="#" class="iviewed"></a>
+                    <a href="#" class="ishare"></a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-txt">
+                    <h2>Impossible App</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur totam nam molestiae iure unde numquam nobis fugiat ab.</p>
+                </div>
+                <div class="project-btn">
+                    <a href="#" class="istar"></a>
+                    <a href="#" class="iviewed"></a>
+                    <a href="#" class="ishare"></a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-txt">
+                    <h2>Easy Peasy App</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur totam nam molestiae iure unde numquam nobis fugiat ab.</p>
+                </div>
+                <div class="project-btn">
+                    <a href="#" class="istar"></a>
+                    <a href="#" class="iviewed"></a>
+                    <a href="#" class="ishare"></a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-txt">
+                    <h2>Ad Blocker</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur totam nam molestiae iure unde numquam nobis fugiat ab.</p>
+                </div>
+                <div class="project-btn">
+                    <a href="#" class="istar"></a>
+                    <a href="#" class="iviewed"></a>
+                    <a href="#" class="ishare"></a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-txt">
+                    <h2>Money Maker</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur totam nam molestiae iure unde numquam nobis fugiat ab.</p>
+                </div>
+                <div class="project-btn">
+                    <a href="#" class="istar"></a>
+                    <a href="#" class="iviewed"></a>
+                    <a href="#" class="ishare"></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="side-cont">
+            <div class="ann-cont">
+                <h1>Announcements</h1>
+                <div class="ann-items">
+                    <div>
+                        <h1>Site Maintenance</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam earum eius accusantium maxime voluptas, esse iste ratione nostrum provident deserunt.</p>
+                    </div>
+
+                    <div>
+                        <h1>Community Share Day</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam earum eius accusantium maxime voluptas, esse iste ratione nostrum provident deserunt.</p>
+                    </div>
+
+                    <div>
+                        <h1>Update Privacy Policy</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam earum eius accusantium maxime voluptas, esse iste ratione nostrum provident deserunt.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="trend-cont">
+                <h1>Trending</h1>
+                <div class="trend-items">
+                    <div>
+                        <img src="./resources/f1.jpg" alt="">
+                        <h4>@tegan</h4>
+                        <p>Lorem, ipsum dolor.</p>
+                    </div>
+                    <div>
+                        <img src="./resources/f2.jpg" alt="">
+                        <h4>@morgan</h4>
+                        <p>Nemo, vitae totam.</p>
+                    </div>
+                    <div>
+                        <img src="./resources/f3.png" alt="">
+                        <h4>@kendall</h4>
+                        <p>Nemo, expedita nihil?</p>
+                    </div>
+                    <div>
+                        <img src="./resources/f4.png" alt="">
+                        <h4>@alex</h4>
+                        <p>Harum, laudantium unde?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
